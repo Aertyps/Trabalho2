@@ -1,0 +1,16 @@
+C:\Users\Irenep\Desktop\Trabalho2\bin\Debug\net5.0\Trabalho2.exe
+C:\Users\Irenep\Desktop\Trabalho2\bin\Debug\net5.0\Trabalho2.deps.json
+C:\Users\Irenep\Desktop\Trabalho2\bin\Debug\net5.0\Trabalho2.runtimeconfig.json
+C:\Users\Irenep\Desktop\Trabalho2\bin\Debug\net5.0\Trabalho2.runtimeconfig.dev.json
+C:\Users\Irenep\Desktop\Trabalho2\bin\Debug\net5.0\Trabalho2.dll
+C:\Users\Irenep\Desktop\Trabalho2\bin\Debug\net5.0\ref\Trabalho2.dll
+C:\Users\Irenep\Desktop\Trabalho2\bin\Debug\net5.0\Trabalho2.pdb
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.csproj.AssemblyReference.cache
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.AssemblyInfoInputs.cache
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.AssemblyInfo.cs
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.csproj.CoreCompileInputs.cache
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.dll
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\ref\Trabalho2.dll
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.pdb
+C:\Users\Irenep\Desktop\Trabalho2\obj\Debug\net5.0\Trabalho2.genruntimeconfig.cache
