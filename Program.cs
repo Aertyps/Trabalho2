@@ -74,13 +74,13 @@ namespace Trabalho2
             Console.WriteLine( "\nComparação de potencias dos circuitos com resistencias em "
                     + "Serie\n");
             Circuito c1 = Circuito.potObjSerie(circuito1, circuito2);
-            // c1 = Circuito.potObjSerie(circuito1, circuito2);
-            // Console.WriteLine( "A menor potencia é " + c1.potenciaFonteSerie());
+            
+            Console.WriteLine( "A menor potencia é " + c1.potenciaFonteSerie());
 
-            // Console.WriteLine( "\nComparação de potencias dos circuitos com resistencias em "
-            //         "Paralelo\n");
-            // Circuito c2 = Circuito.potObjParalelo(circuito1, circuito2));
-            // Console.WriteLine( "A menor potencia é " + c2.potenciaFonteParalelo());
+            Console.WriteLine( "\nComparação de potencias dos circuitos com resistencias em "
+            +         "Paralelo\n");
+            Circuito c2 = Circuito.potObjParalelo(circuito1, circuito2);
+            Console.WriteLine( "A menor potencia é " + c2.potenciaFonteParalelo());
         }
     }
 }
