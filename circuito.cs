@@ -1,78 +1,82 @@
 namespace Trabalho2
 {
-    public class circuito:arquivo
+    public class Circuito
     {
-        Circuito(float r1, float r2, float f) {
+        float resistencia1;
+        float resistencia2;
+        float fonte;
+
+        public Circuito(float r1, float r2, float f) {
             resistencia1 = r1;
             resistencia2 = r2;
             fonte = f;
         }
 
-        Circuito(float r1, float r2) {
+        public Circuito(float r1, float r2) {
             resistencia1 = r1;
             resistencia2 = r2;
         }
 
-        void setR1(float r1) {
+        public void setR1(float r1) {
             resistencia1 = r1;
         }
 
-        float getR1() {
+        public float getR1() {
             return resistencia1;
         }
 
-        void setR2(float r2) {
+        public void setR2(float r2) {
             resistencia2 = r2;
         }
 
-        float getR2() {
+        public float getR2() {
             return resistencia2;
         }
 
-        void setF1(float f) {
+        public void setF1(float f) {
             fonte = f;
         }
 
-        float getF1() {
+        public float getF1() {
             return fonte;
         }
 
-        float resistenciaSerie() {
+        public float resistenciaSerie() {
             return (resistencia1 + resistencia2);
         }
 
-        float resistenciaParalelo() {
+        public float resistenciaParalelo() {
             return ((resistencia1 * resistencia2) / (resistencia1 + resistencia2));
         }
 
-        float correnteTotalSerie() {
+        public float correnteTotalSerie() {
             float corrente = fonte / resistenciaSerie();
             return corrente;
         }
 
-        float correnteTotalParalelo() {
+        public float correnteTotalParalelo() {
             float corrente = fonte / resistenciaParalelo();
             return corrente;
         }
 
-        float potenciaFonteSerie() {
+        public float potenciaFonteSerie() {
             float potencia = fonte * correnteTotalSerie();
             return potencia;
         }
 
-        float potenciaFonteParalelo() {
+        public float potenciaFonteParalelo() {
             float potencia = fonte * correnteTotalParalelo();
             return potencia;
         }
 
-        Circuito potObjSerie(Circuito c1, Circuito c2) {
+        public static Circuito potObjSerie(Circuito c1, Circuito c2) {
             if (c1.potenciaFonteSerie() < c2.potenciaFonteSerie()) {
                 return c1;
             }
             return c2;
         }
 
-        Circuito potObjParalelo(Circuito c1, Circuito c2) {
+        public static Circuito potObjParalelo(Circuito c1, Circuito c2) {
             if (c1.potenciaFonteParalelo() < c2.potenciaFonteParalelo()) {
                 return c1;
             }
