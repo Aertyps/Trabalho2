@@ -19,9 +19,9 @@ namespace Trabalho2
                 Console.WriteLine("Informe o valor da resistencia R1 ");
                 R1 = float.Parse(Console.ReadLine());
                 Console.WriteLine("Informe o valor da resistencia R2 ");
-                R2 = float.Parse(Console.ReadLine());;
+                R2 = float.Parse(Console.ReadLine());
                 Console.WriteLine("Informe o valor da Fonte de tensão");
-                F = float.Parse(Console.ReadLine());;
+                F = float.Parse(Console.ReadLine());
 
                 if ((R1 > 0) && (R2 > 0)) {
                     if (op == 0) {
