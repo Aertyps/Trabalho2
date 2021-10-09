@@ -7,8 +7,6 @@ namespace Trabalho2
         static void Main(string[] args)
         {
 
-            Console.WriteLine("Hello World2!");
-
             int op = 0;
 
             Console.WriteLine("\n\nT01 - Circuitos elétricos\n");
@@ -18,11 +16,11 @@ namespace Trabalho2
 
             while (op <= 1) {
                 Console.WriteLine("\nCircuito "+ (op + 1) +"\n");
-                Console.WriteLine("Informe o valor da resistencia R1 \n");
+                Console.WriteLine("Informe o valor da resistencia R1 ");
                 R1 = float.Parse(Console.ReadLine());
-                Console.WriteLine("Informe o valor da resistencia R2 \n");
+                Console.WriteLine("Informe o valor da resistencia R2 ");
                 R2 = float.Parse(Console.ReadLine());;
-                Console.WriteLine("Informe o valor da Fonte de tensão\n");
+                Console.WriteLine("Informe o valor da Fonte de tensão");
                 F = float.Parse(Console.ReadLine());;
 
                 if ((R1 > 0) && (R2 > 0)) {
@@ -72,15 +70,15 @@ namespace Trabalho2
                 + circuito2.potenciaFonteParalelo() + "\n");
 
             Console.WriteLine( "\nComparação de potencias dos circuitos com resistencias em "
-                    + "Serie\n");
+                    + "Serie");
             Circuito c1 = Circuito.potObjSerie(circuito1, circuito2);
             
-            Console.WriteLine( "A menor potencia é " + c1.potenciaFonteSerie());
+            Console.WriteLine( "A menor potencia em Serie é " + c1.potenciaFonteSerie());
 
             Console.WriteLine( "\nComparação de potencias dos circuitos com resistencias em "
-            +         "Paralelo\n");
+            +         "Paralelo");
             Circuito c2 = Circuito.potObjParalelo(circuito1, circuito2);
-            Console.WriteLine( "A menor potencia é " + c2.potenciaFonteParalelo());
+            Console.WriteLine( "A menor potencia em Paralelo é " + c2.potenciaFonteParalelo());
         }
     }
 }

@@ -1,6 +1,6 @@
 namespace Trabalho2
 {
-    public class Circuito
+    public class Circuito:ICircuito
     {
         float resistencia1;
         float resistencia2;
